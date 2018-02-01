@@ -1,10 +1,11 @@
-var reporter = require('cucumber-html-reporter');
-var timestamp = require('time-stamp');
+'use strict';
+let reporter = require('cucumber-html-reporter');
+let timestamp = require('time-stamp');
 
 console.log(timestamp('YYYY_MM_DD_HH_mm_ss'));
 
-var foundationOptions = {
-  theme: 'bootstrap',
+let foundationOptions = {
+  theme: 'foundation',
   jsonDir: './reports/json/',
   ignoreBadJsonFile: true,
   output: './reports/report.html',
