@@ -1,6 +1,6 @@
-##TAF with using nightwatch-cucumber
+# TAF with using nightwatch-cucumber #
 
-#preinstall actions:
+## preinstall actions: ##
 
 
 - Install JAVA JRE and JDK with the same versions: java version "1.8.0_121"
