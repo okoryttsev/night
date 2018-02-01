@@ -1,0 +1,8 @@
+node_modules
+*.log
+screenshots
+reports
+*.bat
+.DS_Store
+.vscode
+.idea

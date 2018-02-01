@@ -1,0 +1,66 @@
+{
+  "name": "nightwatch-cucumber",
+  "version": "1.0.0",
+  "description": "Nightwatch.js plugin for Cucumber.js",
+  "main": "nightwatch.conf.js",
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "author": "Igor Muchychka",
+  "license": "MIT",
+  "dependencies": {},
+  "scripts": {
+    "report": "node reporter.js",
+    "e2e-test": "nightwatch",
+    "test": "npm-run-all e2e-test report --continue-on-error"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mucsi96/nightwatch-cucumber.git"
+  },
+  "keywords": [
+    "nightwatch",
+    "cucumber",
+    "gherkin",
+    "bdd",
+    "selenium",
+    "browser",
+    "automation",
+    "testing",
+    "test"
+  ],
+  "bugs": {
+    "url": "https://github.com/mucsi96/nightwatch-cucumber/issues"
+  },
+  "homepage": "https://github.com/mucsi96/nightwatch-cucumber#readme",
+  "files": [
+    "lib",
+    "resources"
+  ],
+  "devDependencies": {
+    "async": "^2.5.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-preset-es2017-native-modules": "0.0.2",
+    "babel-preset-es2017-node7": "^0.5.2",
+    "babel-register": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "chromedriver": "^2.32.3",
+    "cucumber": "^3.1.0",
+    "cucumber-html-reporter": "^3.0.4",
+    "cucumber-pretty": "0.0.5",
+    "data-store": "^1.0.0",
+    "fakerator": "^0.3.0",
+    "fecha": "^2.3.1",
+    "nightwatch": "^0.9.16",
+    "nightwatch-cucumber": "^8.2.8",
+    "npm-run-all": "^4.1.1",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "selenium-server": "^3.5.3",
+    "time-stamp": "^2.0.0",
+    "xml2js": "^0.4.19"
+  },
+  "config": {}
+}
